@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <title>É menor?</title>
+</head>
+<body>
+    <div class="container">
+        <h1>O seu numero é menor?</h1>
+        <h2>Digite dois números, clique no botão e deixe o programa determinar se o primeiro número(A) é menor que o segundo número(B).</h2>
+        <form id="form-comparacao">
+            <input type="number" id="numeroA" placeholder="Número A" required>
+            <h3 id="menor-element">&lt;</h3>
+            <input type="number" id="numeroB" placeholder="Número B" required>
+            <button type="submit" id="btn-calcular">É menor?</button>
+        </form>
+        <p class="success-message"></p>
+        <p class="failure-message"></p>
+    </div>
+    <script src="/main.js"></script>
+</body>
+</html>
